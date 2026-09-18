@@ -82,7 +82,7 @@ Be aware of the rest of the org at [github.com/ersilia-os](https://github.com/er
 
 RetroMol's `Fingerprinter` only hashes tokens into bins when the vocabulary
 outgrows the bit width. At 452 tokens it never does, so **a bin index is simply
-the token's alphabetical position in the ruleset**. Adding one rule upstream
+the token's alphabetical position in the **vocabulary**. Adding one rule upstream
 whose name sorts early renumbers most of the vector: a rule named `A0` moves 299
 of 452 bins, while one named `zzz_new_rule` moves none. Nothing warns you — old
 predictions stay byte-valid and quietly stop meaning what `run_columns.csv` says.
@@ -117,9 +117,14 @@ columns in every stored prediction.
 Designed for modular natural products — type I polyketides and nonribosomal
 peptides. On ordinary drug-like input most molecules parse to little or nothing:
 mean coverage 0.15 on a drug-like benchmark against 0.38 on NPAtlas, with ~29%
-returning no identified monomers at all. That is a real result, not a failure, so
-those rows are zeros with `coverage` 0.0. The `coverage` column is the
-applicability-domain signal — filter on it.
+returning no identified monomers at all. That is a real result, not a failure.
+Such a molecule does **not** come back all-zero: the unassigned region is one
+unidentified monomer, so it lands in the `<UNK>` bin and the row reads
+`feat_000 = 1.0`, everything else 0, `coverage` 0.0. That is faithful to the
+paper, which encodes unidentified monomers as `<UNK>`, and it is more
+informative than an all-zero vector. Note `feat_000` is the `<UNK>` bin, so only
+**451** of the 452 bins are named biosynthetic building blocks. The `coverage`
+column is the applicability-domain signal — filter on it.
 
 NaN rows mean RetroMol could not process the molecule at all: unparseable SMILES,
 an empty or non-string cell, the readout's `root_enc` ValueError (~0.7% of
@@ -132,3 +137,16 @@ that RetroMol's paper aligns collapses to a bag of building blocks here. Two
 molecules with the same units assembled in a different order are indistinguishable
 in this output. All readout paths are pooled, so tailoring modifications that sit
 off the main backbone (glycosylation, methylation) do reach the vector.
+
+## Batch runtime
+
+Parsing is serial and the timeout is per molecule, so worst-case batch time scales
+with the number of molecules that time out. Measured on NPAtlas: median 0.2 s,
+p99 ~12 s, slowest observed 92 s, and at the 60 s cap the timeout rate is well
+under 1%. A 1000-molecule batch therefore costs minutes, not hours.
+
+The serial loop is deliberate. RetroMol's timeout uses `SIGALRM`, which only fires
+on the main thread, so a thread pool would silently disable it; parallelism would
+have to be process-based. A batch-size cap was also rejected because the Hub runs
+bulk precalculation over millions of molecules. If throughput becomes a problem,
+lower `TIMEOUT_RUN_RETROMOL` rather than adding a cap.

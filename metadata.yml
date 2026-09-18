@@ -24,8 +24,8 @@ Output:
   - Value
 Output Dimension: 453
 Output Consistency: Fixed
-Interpretation: Weights of 452 biosynthetic building-block tokens plus a coverage 
-  fraction showing how much of the molecule parsed.
+Interpretation: Weights of 451 biosynthetic building-block tokens plus an 
+  unidentified-monomer bin and a coverage fraction.
 Tag:
   - Fingerprint
   - Natural product
