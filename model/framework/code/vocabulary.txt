@@ -1,0 +1,452 @@
+<UNK>
+1-(1,1-dimethylallyl)-tryptophan
+1-aminocyclopropane-1-carboxylic acid
+1-pyrroline-5-carboxylic acid
+10,14-dimethyloctadecanoic acid
+2,2-dimethylpropanoic acid
+2,3-diaminobutyric acid
+2,3-diaminopropionate
+2,3-dihydroxy-para-aminobenzoic acid
+2,3-dihydroxybenzoic acid
+2,3-dihydroxyhexadecanoic acid
+2,4-diaminobytyric acid
+2,4-dihydroxypentanoic acid
+2,6-diamino-57-dihydroxy-heptanoic acid
+2-(1-methylcyclopropyl)-glycine
+2-(2,6-dioxopiperidin-4-yl)acetic acid
+2-amino-3,5-dimethyl-4-hexenoic Acid
+2-amino-3-hydroxy-4-(4-nitrophenyl)butanoic acid
+2-amino-3-hydroxycyclopent-2-enone
+2-amino-4-decenoic acid
+2-amino-4-hexenoic acid
+2-amino-6-hydroxy-4-methyl-8-oxodecanoic acid
+2-amino-8-oxodecanoic acid
+2-amino-9,10-epoxy-8-oxodecanoic acid
+2-aminoadipic acid
+2-aminobutyric acid
+2-aminodecanoic acid
+2-aminododecanoic acid
+2-aminoisobutyric acid
+2-aminooctanoic acid
+2-carboxy-6-hydroxyoctahydroindole
+2-chloro-3,5-dihydroxy-4-methylphenylglycine
+2-chlorobenzoic acid
+2-hydroxy-3-aminononanoic acid
+2-hydroxy-3-methylpentanoic acid
+2-hydroxy-4-methylpentanoic acid
+2-hydroxyglycine
+2-hydroxyisovaleric acid
+2-hydroxypent-4-enoic acid
+2-ketoglutaric acid
+2-ketoisocaproic acid
+2-ketoisovaleric acid
+2-methyl lactic acid
+2-methyl-3-oxobutyrine
+2-methylprop-2-enoic acid
+2-methylserine
+2-phenylacetic acid
+2-phenylethanamine
+2-sulfamoylacetic acid
+3,3-dihomo-4-methoxytyrosine
+3,3-dihomophenylalanine
+3,3-dihomotyrosine
+3,4-dehydrolysine
+3,4-dichloroproline
+3,4-dihydroxybenzoic acid
+3,4-dihydroxyhomotyrosine
+3,4-dihydroxyphenylalanine
+3,5-dichloro-4-hydroxyphenylglycine
+3,5-dihydroxybenzoic acid
+3,5-dihydroxyphenylglycine
+3-(2-nitrocyclopropylalanine)
+3-(3ridyl)-alanine
+3-amino-2,4-dihydroxybenzoic acid
+3-amino-4-hydroxybenzoic acid
+3-amino-5-hydroxybenzoic acid
+3-amino-6-hydroxy-2-pridone
+3-aminobutyric acid
+3-butynoic acid
+3-chloroproline
+3-chlorotyrosine
+3-cyclohex-2-enylalanine
+3-formamido-2-hydroxybenzoic acid
+3-hydroxy histdine
+3-hydroxy-2,2-dimethyldecanoic acid
+3-hydroxy-2,4-diaminobutyric acid
+3-hydroxy-3-methylproline
+3-hydroxy-4-methyloctanoic acid
+3-hydroxy-4-methylproline
+3-hydroxy-6-chlorohistidine
+3-hydroxy-O-methyl-5-methyltyrosine
+3-hydroxy-O-methyltyrosine
+3-hydroxy-para-aminobenzoic acid
+3-hydroxyasparagine
+3-hydroxyaspartic acid
+3-hydroxydecanoic acid
+3-hydroxyglutamic acid
+3-hydroxyglutamine
+3-hydroxyhomotyrosine
+3-hydroxykynurenine
+3-hydroxyleucine
+3-hydroxypicolinic acid
+3-hydroxypipecolic acid
+3-hydroxyproline
+3-hydroxyquinaldic acid
+3-hydroxytridecanoic acid
+3-hydroxytyrosine
+3-hydroxyvaline
+3-methoxyanthranilic acid
+3-methoxyaspartic acid
+3-methylasparagine
+3-methylaspartic acid
+3-methylbeta-alanine
+3-methylbutanoic acid
+3-methylglutamic acid
+3-methylleucine
+3-methylproline
+3-nitrotyrosine
+4,5-dehydroarginine
+4,5-dihydroxy-2-aminopentanoic acid
+4,5-dihydroxyornithine
+4-acetamidopyrrole-2-carboxylic acid
+4-acetyl-5-methylproline
+4-amino-2-hydroxy-3-isopropoxybenzoic acid
+4-amino-2-hydroxybutanoic acid
+4-aminobutyric acid
+4-aminophenylalanine
+4-butenyl-4-methylthreonine
+4-chlorobenzoic acid
+4-hydroxy-3-nitrobenzoic acid
+4-hydroxy-D-kynurenine
+4-hydroxybenzoic acid
+4-hydroxyglutamine
+4-hydroxyindole-3-carboxylic acid
+4-hydroxylysine
+4-hydroxyphenylglycine
+4-hydroxyphenylpyruvic acid
+4-hydroxyproline
+4-hydroxythreonine
+4-hydroxyvaline
+4-methoxytryptophan
+4-methylazetidine-2-carboxylic acid
+4-methylhex-2-enoic acid
+4-methylproline
+4-nitrotryptophan
+4-oxoproline
+4-propenylproline
+4-propylproline
+5,5-dimethylpipecolic acid
+5-aminolevulinic acid
+5-chloroanthranilic acid
+5-chlorotryptophan
+5-hydroxylysine
+5-methoxytyrosine
+5-methylorsellinic acid
+5-methylproline
+6,7-dichlorotryptophan
+6-chloro-4-hydroxy-1-methyl-indole-3-carboxylic acid
+6-chloro-4-hydroxyindole-3-carboxylic acid
+6-chlorotryptophan
+6-hydroxy-tetrahydro-isoquinoline-3-carboxylic acid
+6-methyl-pipecolic acid
+6-methylsalicylic acid
+A
+A1
+A10
+A10^R
+A10^S
+A11
+A2
+A2^R
+A2^S
+A3
+A4
+A4^R
+A4^S
+A5
+A5^R
+A5^S
+A6
+A6^R
+A6^S
+A7
+A7^R
+A7^S
+A8
+A9
+A9^R
+A9^S
+An acid hydrazine polyene (intermediate 14)
+B1
+B10
+B11
+B12
+B13
+B2
+B3
+B4
+B5
+B6
+B7
+B8
+B9
+B^R1
+B^R10^R
+B^R10^S
+B^R12^R
+B^R12^S
+B^R13
+B^R2
+B^R2^R
+B^R2^S
+B^R3
+B^R4^R
+B^R4^S
+B^R5^R
+B^R5^S
+B^R6^R
+B^R6^S
+B^R7^R
+B^R7^S
+B^R8
+B^R9^R
+B^R9^S
+B^S1
+B^S10^R
+B^S10^S
+B^S12^R
+B^S12^S
+B^S13
+B^S2
+B^S2^R
+B^S2^S
+B^S3
+B^S4^R
+B^S4^S
+B^S5^R
+B^S5^S
+B^S6^R
+B^S6^S
+B^S7^R
+B^S7^S
+B^S8
+B^S9^R
+B^S9^S
+C1
+C13
+C2
+C4
+C7
+Compound 4 (formed by the decarboxylative condensation of L-Phe and succinyl-CoA)
+D1
+D10
+D11
+D14
+D15
+D16
+D16^R
+D16^S
+D17
+D2
+D2^R
+D2^S
+D3
+D4
+D4^R
+D4^S
+D5
+D5^R
+D5^S
+D6
+D6^R
+D6^S
+D7
+D7^R
+D7^S
+D8
+D^R10^R
+D^R10^S
+D^R17
+D^R8
+D^S10^R
+D^S10^S
+D^S17
+D^S8
+N-(1-methyl)-tryptophan
+N-(1-propargyl)-tryptophan
+N-(5-aminopentyl)hydroxylamine
+N-formylglycine
+N-hydroxyvaline
+N-methylphenylalanine
+N-methyltyrosine
+N1-methoxytryptophan
+N5-acetyl-hydroxyornithine
+N5-anhydromevalonyl-N5-hydroxyornithine
+N5-formyl-N5-hydroxyornithine
+N5-hydroxyornithine
+N5-nitroso-N5-hydroxyornithine
+N6-formyl-N6-hydroxylysine
+N6-hydroxylysine
+PK
+PK_A
+PK_B
+PK_C
+PK_D
+acetic acid
+adenosylmethionine
+alanine
+alaninol
+amination
+anthranilic acid
+arginine
+argininol
+artificial amino acid harzianic acid
+asparagine
+aspartic acid
+aza-beta-tyrosine
+azetidine-2-carboxylic acid
+benzoic acid
+benzoxazolinate
+beta-alanine
+beta-hydroxy-3-hydroxy-O-methyl-5-methyltyrosine
+beta-hydroxy-gamma-methyl-hexadecanoic acid
+beta-hydroxyarginine
+beta-hydroxycyclohex-2-enylalanine
+beta-hydroxyenduracididine
+beta-hydroxyphenylalanine
+beta-hydroxytyrosine
+beta-lysine
+beta-methylphenylalanine
+beta-methyltryptophan
+beta-phenylalanine
+beta-tyrosine
+betaine
+bicyclic guanidine alkaloid
+boronation
+bromination
+butanedioic acid
+butanoic acid
+cadaverine
+caffeic acid
+capreomycidine
+carbamic acid
+carbonic acid
+chlorination
+cinnamic acid
+citrulline
+colletorin D acid
+coumaric acid
+cyanide
+cyclopentane-1,2-dicarboxylic acid
+cysteic acid
+cysteine
+dec-3-enoic acid
+decanoic acid
+dehydroalanine
+dehydroarginine
+dehydrobutyrine
+dehydrohomoserine
+dehydrophenylalanine
+dehydrotryptophan
+dehydrovaline
+dihydrolysergic acid
+dimethylsulfoniopropionic acid
+dodecanoic acid
+enduracididine
+ethanol
+fluorination
+formaldehyde
+fumaric acid
+furan-3-carboxylic acid
+glutamic acid
+glutamine
+glyceric acid
+glycine
+glycolic acid
+glycosylation
+grifolic acid
+guanidine-containing fatty acid
+halogenation
+heptanoic acid
+hexadecanoic acid
+hexanoic acid
+histidine
+homocysteamine
+homocysteine
+homophenylalanine
+homoserine
+homotyrosine
+indole pyruvic acid
+iodination
+isobutyric acid
+isoleucine
+isoleucinol
+isovaline
+kynurenine
+lactic acid
+leucine
+leucinol
+linoleic acid
+lysergic acid
+lysine
+malic acid
+malonamate
+malonic acid
+meta-tyrosine
+methanol
+methionine
+methylation
+methylglutaconyl hydroxyornithine
+nicotinic acid
+nonanoic acid
+norcoronamic acid
+ochratoxin beta
+octanoic acid
+ornithine
+ornithine alkaloid
+orsellinic acid
+oxidation
+p-hydroxybenzoylformic acid
+p-hydroxymandelate
+para-aminobenzoic acid
+parahydroxy phenylacetic acid
+pentadecanoic acid
+pentanoic acid
+phenazine-1,6-dicarboxylic acid
+phenylalanine
+phenylalaninol
+phenylglycine
+phenyllactic acid
+phenylpyruvic acid
+phosphonylation
+pipecolic acid
+piperazic acid
+piperonylic acid
+proline
+propanoic acid
+propanol
+putrescin
+pyrrole-2-carboxylic acid
+pyruvic acid
+quinoxaline-2-carboxylic acid
+salicylic acid
+serine
+siderophore
+streptamine
+succinic semialdehyde
+succinyl-hydrazinoacetic acid
+tetradec-2-enoic acid
+tetradecanoic acid
+threonine
+trans-2-hexanoic acid
+tricarballylic acid
+tridecanoic acid
+tryptophan
+tryptophan alkaloid
+tyrosine
+ustethylinic acid
+valienol
+valienone
+valine
+valine isocyanide
+valinol

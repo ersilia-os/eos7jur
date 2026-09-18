@@ -13,35 +13,28 @@ Description: Decomposes a natural product into the biosynthetic building blocks
   poorly.
 Deployment:
   - Local
-  - Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization,
-  Projection, Similarity search, Generation
+Source: Local
+Source Type: External
+Task: Representation
+Subtask: Featurization
 Input:
   - Compound
 Input Dimension: 1
 Output:
   - Value
-  - Score
-  - Compound
-  - Text
-Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: The output of this template model should be interpreted like 
-  this.
+Output Dimension: 453
+Output Consistency: Fixed
+Interpretation: Weights of 452 biosynthetic building-block tokens plus a coverage 
+  fraction showing how much of the molecule parsed.
 Tag:
   - Fingerprint
   - Natural product
   - Descriptor
 Biomedical Area:
-  - Biomedical Area 1
-  - Biomedical Area 2
+  - Any
 Target Organism:
-  - Target Organism 1
-  - Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
+  - Any
+Publication Type: Preprint
 Publication Year: 2026
 Publication: https://doi.org/10.64898/2026.06.12.731935
 Source Code: https://github.com/moltools/retromol

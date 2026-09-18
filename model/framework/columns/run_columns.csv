@@ -1,1 +1,454 @@
 name,type,direction,description
+feat_000,float,high,Accumulated weight of monomers that no matching rule could identify
+feat_001,float,high,Accumulated weight of the 1-(1-1-dimethylallyl)-tryptophan biosynthetic building block token
+feat_002,float,high,Accumulated weight of the 1-aminocyclopropane-1-carboxylic acid biosynthetic building block token
+feat_003,float,high,Accumulated weight of the 1-pyrroline-5-carboxylic acid biosynthetic building block token
+feat_004,float,high,Accumulated weight of the 10-14-dimethyloctadecanoic acid biosynthetic building block token
+feat_005,float,high,Accumulated weight of the 2-2-dimethylpropanoic acid biosynthetic building block token
+feat_006,float,high,Accumulated weight of the 2-3-diaminobutyric acid biosynthetic building block token
+feat_007,float,high,Accumulated weight of the 2-3-diaminopropionate biosynthetic building block token
+feat_008,float,high,Accumulated weight of the 2-3-dihydroxy-para-aminobenzoic acid biosynthetic building block token
+feat_009,float,high,Accumulated weight of the 2-3-dihydroxybenzoic acid biosynthetic building block token
+feat_010,float,high,Accumulated weight of the 2-3-dihydroxyhexadecanoic acid biosynthetic building block token
+feat_011,float,high,Accumulated weight of the 2-4-diaminobytyric acid biosynthetic building block token
+feat_012,float,high,Accumulated weight of the 2-4-dihydroxypentanoic acid biosynthetic building block token
+feat_013,float,high,Accumulated weight of the 2-6-diamino-57-dihydroxy-heptanoic acid biosynthetic building block token
+feat_014,float,high,Accumulated weight of the 2-(1-methylcyclopropyl)-glycine biosynthetic building block token
+feat_015,float,high,Accumulated weight of the 2-(2-6-dioxopiperidin-4-yl)acetic acid biosynthetic building block token
+feat_016,float,high,Accumulated weight of the 2-amino-3-5-dimethyl-4-hexenoic Acid biosynthetic building block token
+feat_017,float,high,Accumulated weight of the 2-amino-3-hydroxy-4-(4-nitrophenyl)butanoic acid biosynthetic building block token
+feat_018,float,high,Accumulated weight of the 2-amino-3-hydroxycyclopent-2-enone biosynthetic building block token
+feat_019,float,high,Accumulated weight of the 2-amino-4-decenoic acid biosynthetic building block token
+feat_020,float,high,Accumulated weight of the 2-amino-4-hexenoic acid biosynthetic building block token
+feat_021,float,high,Accumulated weight of the 2-amino-6-hydroxy-4-methyl-8-oxodecanoic acid biosynthetic building block token
+feat_022,float,high,Accumulated weight of the 2-amino-8-oxodecanoic acid biosynthetic building block token
+feat_023,float,high,Accumulated weight of the 2-amino-9-10-epoxy-8-oxodecanoic acid biosynthetic building block token
+feat_024,float,high,Accumulated weight of the 2-aminoadipic acid biosynthetic building block token
+feat_025,float,high,Accumulated weight of the 2-aminobutyric acid biosynthetic building block token
+feat_026,float,high,Accumulated weight of the 2-aminodecanoic acid biosynthetic building block token
+feat_027,float,high,Accumulated weight of the 2-aminododecanoic acid biosynthetic building block token
+feat_028,float,high,Accumulated weight of the 2-aminoisobutyric acid biosynthetic building block token
+feat_029,float,high,Accumulated weight of the 2-aminooctanoic acid biosynthetic building block token
+feat_030,float,high,Accumulated weight of the 2-carboxy-6-hydroxyoctahydroindole biosynthetic building block token
+feat_031,float,high,Accumulated weight of the 2-chloro-3-5-dihydroxy-4-methylphenylglycine biosynthetic building block token
+feat_032,float,high,Accumulated weight of the 2-chlorobenzoic acid biosynthetic building block token
+feat_033,float,high,Accumulated weight of the 2-hydroxy-3-aminononanoic acid biosynthetic building block token
+feat_034,float,high,Accumulated weight of the 2-hydroxy-3-methylpentanoic acid biosynthetic building block token
+feat_035,float,high,Accumulated weight of the 2-hydroxy-4-methylpentanoic acid biosynthetic building block token
+feat_036,float,high,Accumulated weight of the 2-hydroxyglycine biosynthetic building block token
+feat_037,float,high,Accumulated weight of the 2-hydroxyisovaleric acid biosynthetic building block token
+feat_038,float,high,Accumulated weight of the 2-hydroxypent-4-enoic acid biosynthetic building block token
+feat_039,float,high,Accumulated weight of the 2-ketoglutaric acid biosynthetic building block token
+feat_040,float,high,Accumulated weight of the 2-ketoisocaproic acid biosynthetic building block token
+feat_041,float,high,Accumulated weight of the 2-ketoisovaleric acid biosynthetic building block token
+feat_042,float,high,Accumulated weight of the 2-methyl lactic acid biosynthetic building block token
+feat_043,float,high,Accumulated weight of the 2-methyl-3-oxobutyrine biosynthetic building block token
+feat_044,float,high,Accumulated weight of the 2-methylprop-2-enoic acid biosynthetic building block token
+feat_045,float,high,Accumulated weight of the 2-methylserine biosynthetic building block token
+feat_046,float,high,Accumulated weight of the 2-phenylacetic acid biosynthetic building block token
+feat_047,float,high,Accumulated weight of the 2-phenylethanamine biosynthetic building block token
+feat_048,float,high,Accumulated weight of the 2-sulfamoylacetic acid biosynthetic building block token
+feat_049,float,high,Accumulated weight of the 3-3-dihomo-4-methoxytyrosine biosynthetic building block token
+feat_050,float,high,Accumulated weight of the 3-3-dihomophenylalanine biosynthetic building block token
+feat_051,float,high,Accumulated weight of the 3-3-dihomotyrosine biosynthetic building block token
+feat_052,float,high,Accumulated weight of the 3-4-dehydrolysine biosynthetic building block token
+feat_053,float,high,Accumulated weight of the 3-4-dichloroproline biosynthetic building block token
+feat_054,float,high,Accumulated weight of the 3-4-dihydroxybenzoic acid biosynthetic building block token
+feat_055,float,high,Accumulated weight of the 3-4-dihydroxyhomotyrosine biosynthetic building block token
+feat_056,float,high,Accumulated weight of the 3-4-dihydroxyphenylalanine biosynthetic building block token
+feat_057,float,high,Accumulated weight of the 3-5-dichloro-4-hydroxyphenylglycine biosynthetic building block token
+feat_058,float,high,Accumulated weight of the 3-5-dihydroxybenzoic acid biosynthetic building block token
+feat_059,float,high,Accumulated weight of the 3-5-dihydroxyphenylglycine biosynthetic building block token
+feat_060,float,high,Accumulated weight of the 3-(2-nitrocyclopropylalanine) biosynthetic building block token
+feat_061,float,high,Accumulated weight of the 3-(3ridyl)-alanine biosynthetic building block token
+feat_062,float,high,Accumulated weight of the 3-amino-2-4-dihydroxybenzoic acid biosynthetic building block token
+feat_063,float,high,Accumulated weight of the 3-amino-4-hydroxybenzoic acid biosynthetic building block token
+feat_064,float,high,Accumulated weight of the 3-amino-5-hydroxybenzoic acid biosynthetic building block token
+feat_065,float,high,Accumulated weight of the 3-amino-6-hydroxy-2-pridone biosynthetic building block token
+feat_066,float,high,Accumulated weight of the 3-aminobutyric acid biosynthetic building block token
+feat_067,float,high,Accumulated weight of the 3-butynoic acid biosynthetic building block token
+feat_068,float,high,Accumulated weight of the 3-chloroproline biosynthetic building block token
+feat_069,float,high,Accumulated weight of the 3-chlorotyrosine biosynthetic building block token
+feat_070,float,high,Accumulated weight of the 3-cyclohex-2-enylalanine biosynthetic building block token
+feat_071,float,high,Accumulated weight of the 3-formamido-2-hydroxybenzoic acid biosynthetic building block token
+feat_072,float,high,Accumulated weight of the 3-hydroxy histdine biosynthetic building block token
+feat_073,float,high,Accumulated weight of the 3-hydroxy-2-2-dimethyldecanoic acid biosynthetic building block token
+feat_074,float,high,Accumulated weight of the 3-hydroxy-2-4-diaminobutyric acid biosynthetic building block token
+feat_075,float,high,Accumulated weight of the 3-hydroxy-3-methylproline biosynthetic building block token
+feat_076,float,high,Accumulated weight of the 3-hydroxy-4-methyloctanoic acid biosynthetic building block token
+feat_077,float,high,Accumulated weight of the 3-hydroxy-4-methylproline biosynthetic building block token
+feat_078,float,high,Accumulated weight of the 3-hydroxy-6-chlorohistidine biosynthetic building block token
+feat_079,float,high,Accumulated weight of the 3-hydroxy-O-methyl-5-methyltyrosine biosynthetic building block token
+feat_080,float,high,Accumulated weight of the 3-hydroxy-O-methyltyrosine biosynthetic building block token
+feat_081,float,high,Accumulated weight of the 3-hydroxy-para-aminobenzoic acid biosynthetic building block token
+feat_082,float,high,Accumulated weight of the 3-hydroxyasparagine biosynthetic building block token
+feat_083,float,high,Accumulated weight of the 3-hydroxyaspartic acid biosynthetic building block token
+feat_084,float,high,Accumulated weight of the 3-hydroxydecanoic acid biosynthetic building block token
+feat_085,float,high,Accumulated weight of the 3-hydroxyglutamic acid biosynthetic building block token
+feat_086,float,high,Accumulated weight of the 3-hydroxyglutamine biosynthetic building block token
+feat_087,float,high,Accumulated weight of the 3-hydroxyhomotyrosine biosynthetic building block token
+feat_088,float,high,Accumulated weight of the 3-hydroxykynurenine biosynthetic building block token
+feat_089,float,high,Accumulated weight of the 3-hydroxyleucine biosynthetic building block token
+feat_090,float,high,Accumulated weight of the 3-hydroxypicolinic acid biosynthetic building block token
+feat_091,float,high,Accumulated weight of the 3-hydroxypipecolic acid biosynthetic building block token
+feat_092,float,high,Accumulated weight of the 3-hydroxyproline biosynthetic building block token
+feat_093,float,high,Accumulated weight of the 3-hydroxyquinaldic acid biosynthetic building block token
+feat_094,float,high,Accumulated weight of the 3-hydroxytridecanoic acid biosynthetic building block token
+feat_095,float,high,Accumulated weight of the 3-hydroxytyrosine biosynthetic building block token
+feat_096,float,high,Accumulated weight of the 3-hydroxyvaline biosynthetic building block token
+feat_097,float,high,Accumulated weight of the 3-methoxyanthranilic acid biosynthetic building block token
+feat_098,float,high,Accumulated weight of the 3-methoxyaspartic acid biosynthetic building block token
+feat_099,float,high,Accumulated weight of the 3-methylasparagine biosynthetic building block token
+feat_100,float,high,Accumulated weight of the 3-methylaspartic acid biosynthetic building block token
+feat_101,float,high,Accumulated weight of the 3-methylbeta-alanine biosynthetic building block token
+feat_102,float,high,Accumulated weight of the 3-methylbutanoic acid biosynthetic building block token
+feat_103,float,high,Accumulated weight of the 3-methylglutamic acid biosynthetic building block token
+feat_104,float,high,Accumulated weight of the 3-methylleucine biosynthetic building block token
+feat_105,float,high,Accumulated weight of the 3-methylproline biosynthetic building block token
+feat_106,float,high,Accumulated weight of the 3-nitrotyrosine biosynthetic building block token
+feat_107,float,high,Accumulated weight of the 4-5-dehydroarginine biosynthetic building block token
+feat_108,float,high,Accumulated weight of the 4-5-dihydroxy-2-aminopentanoic acid biosynthetic building block token
+feat_109,float,high,Accumulated weight of the 4-5-dihydroxyornithine biosynthetic building block token
+feat_110,float,high,Accumulated weight of the 4-acetamidopyrrole-2-carboxylic acid biosynthetic building block token
+feat_111,float,high,Accumulated weight of the 4-acetyl-5-methylproline biosynthetic building block token
+feat_112,float,high,Accumulated weight of the 4-amino-2-hydroxy-3-isopropoxybenzoic acid biosynthetic building block token
+feat_113,float,high,Accumulated weight of the 4-amino-2-hydroxybutanoic acid biosynthetic building block token
+feat_114,float,high,Accumulated weight of the 4-aminobutyric acid biosynthetic building block token
+feat_115,float,high,Accumulated weight of the 4-aminophenylalanine biosynthetic building block token
+feat_116,float,high,Accumulated weight of the 4-butenyl-4-methylthreonine biosynthetic building block token
+feat_117,float,high,Accumulated weight of the 4-chlorobenzoic acid biosynthetic building block token
+feat_118,float,high,Accumulated weight of the 4-hydroxy-3-nitrobenzoic acid biosynthetic building block token
+feat_119,float,high,Accumulated weight of the 4-hydroxy-D-kynurenine biosynthetic building block token
+feat_120,float,high,Accumulated weight of the 4-hydroxybenzoic acid biosynthetic building block token
+feat_121,float,high,Accumulated weight of the 4-hydroxyglutamine biosynthetic building block token
+feat_122,float,high,Accumulated weight of the 4-hydroxyindole-3-carboxylic acid biosynthetic building block token
+feat_123,float,high,Accumulated weight of the 4-hydroxylysine biosynthetic building block token
+feat_124,float,high,Accumulated weight of the 4-hydroxyphenylglycine biosynthetic building block token
+feat_125,float,high,Accumulated weight of the 4-hydroxyphenylpyruvic acid biosynthetic building block token
+feat_126,float,high,Accumulated weight of the 4-hydroxyproline biosynthetic building block token
+feat_127,float,high,Accumulated weight of the 4-hydroxythreonine biosynthetic building block token
+feat_128,float,high,Accumulated weight of the 4-hydroxyvaline biosynthetic building block token
+feat_129,float,high,Accumulated weight of the 4-methoxytryptophan biosynthetic building block token
+feat_130,float,high,Accumulated weight of the 4-methylazetidine-2-carboxylic acid biosynthetic building block token
+feat_131,float,high,Accumulated weight of the 4-methylhex-2-enoic acid biosynthetic building block token
+feat_132,float,high,Accumulated weight of the 4-methylproline biosynthetic building block token
+feat_133,float,high,Accumulated weight of the 4-nitrotryptophan biosynthetic building block token
+feat_134,float,high,Accumulated weight of the 4-oxoproline biosynthetic building block token
+feat_135,float,high,Accumulated weight of the 4-propenylproline biosynthetic building block token
+feat_136,float,high,Accumulated weight of the 4-propylproline biosynthetic building block token
+feat_137,float,high,Accumulated weight of the 5-5-dimethylpipecolic acid biosynthetic building block token
+feat_138,float,high,Accumulated weight of the 5-aminolevulinic acid biosynthetic building block token
+feat_139,float,high,Accumulated weight of the 5-chloroanthranilic acid biosynthetic building block token
+feat_140,float,high,Accumulated weight of the 5-chlorotryptophan biosynthetic building block token
+feat_141,float,high,Accumulated weight of the 5-hydroxylysine biosynthetic building block token
+feat_142,float,high,Accumulated weight of the 5-methoxytyrosine biosynthetic building block token
+feat_143,float,high,Accumulated weight of the 5-methylorsellinic acid biosynthetic building block token
+feat_144,float,high,Accumulated weight of the 5-methylproline biosynthetic building block token
+feat_145,float,high,Accumulated weight of the 6-7-dichlorotryptophan biosynthetic building block token
+feat_146,float,high,Accumulated weight of the 6-chloro-4-hydroxy-1-methyl-indole-3-carboxylic acid biosynthetic building block token
+feat_147,float,high,Accumulated weight of the 6-chloro-4-hydroxyindole-3-carboxylic acid biosynthetic building block token
+feat_148,float,high,Accumulated weight of the 6-chlorotryptophan biosynthetic building block token
+feat_149,float,high,Accumulated weight of the 6-hydroxy-tetrahydro-isoquinoline-3-carboxylic acid biosynthetic building block token
+feat_150,float,high,Accumulated weight of the 6-methyl-pipecolic acid biosynthetic building block token
+feat_151,float,high,Accumulated weight of the 6-methylsalicylic acid biosynthetic building block token
+feat_152,float,high,Accumulated weight of the A biosynthetic building block token
+feat_153,float,high,Accumulated weight of the A1 biosynthetic building block token
+feat_154,float,high,Accumulated weight of the A10 biosynthetic building block token
+feat_155,float,high,Accumulated weight of the A10^R biosynthetic building block token
+feat_156,float,high,Accumulated weight of the A10^S biosynthetic building block token
+feat_157,float,high,Accumulated weight of the A11 biosynthetic building block token
+feat_158,float,high,Accumulated weight of the A2 biosynthetic building block token
+feat_159,float,high,Accumulated weight of the A2^R biosynthetic building block token
+feat_160,float,high,Accumulated weight of the A2^S biosynthetic building block token
+feat_161,float,high,Accumulated weight of the A3 biosynthetic building block token
+feat_162,float,high,Accumulated weight of the A4 biosynthetic building block token
+feat_163,float,high,Accumulated weight of the A4^R biosynthetic building block token
+feat_164,float,high,Accumulated weight of the A4^S biosynthetic building block token
+feat_165,float,high,Accumulated weight of the A5 biosynthetic building block token
+feat_166,float,high,Accumulated weight of the A5^R biosynthetic building block token
+feat_167,float,high,Accumulated weight of the A5^S biosynthetic building block token
+feat_168,float,high,Accumulated weight of the A6 biosynthetic building block token
+feat_169,float,high,Accumulated weight of the A6^R biosynthetic building block token
+feat_170,float,high,Accumulated weight of the A6^S biosynthetic building block token
+feat_171,float,high,Accumulated weight of the A7 biosynthetic building block token
+feat_172,float,high,Accumulated weight of the A7^R biosynthetic building block token
+feat_173,float,high,Accumulated weight of the A7^S biosynthetic building block token
+feat_174,float,high,Accumulated weight of the A8 biosynthetic building block token
+feat_175,float,high,Accumulated weight of the A9 biosynthetic building block token
+feat_176,float,high,Accumulated weight of the A9^R biosynthetic building block token
+feat_177,float,high,Accumulated weight of the A9^S biosynthetic building block token
+feat_178,float,high,Accumulated weight of the An acid hydrazine polyene (intermediate 14) biosynthetic building block token
+feat_179,float,high,Accumulated weight of the B1 biosynthetic building block token
+feat_180,float,high,Accumulated weight of the B10 biosynthetic building block token
+feat_181,float,high,Accumulated weight of the B11 biosynthetic building block token
+feat_182,float,high,Accumulated weight of the B12 biosynthetic building block token
+feat_183,float,high,Accumulated weight of the B13 biosynthetic building block token
+feat_184,float,high,Accumulated weight of the B2 biosynthetic building block token
+feat_185,float,high,Accumulated weight of the B3 biosynthetic building block token
+feat_186,float,high,Accumulated weight of the B4 biosynthetic building block token
+feat_187,float,high,Accumulated weight of the B5 biosynthetic building block token
+feat_188,float,high,Accumulated weight of the B6 biosynthetic building block token
+feat_189,float,high,Accumulated weight of the B7 biosynthetic building block token
+feat_190,float,high,Accumulated weight of the B8 biosynthetic building block token
+feat_191,float,high,Accumulated weight of the B9 biosynthetic building block token
+feat_192,float,high,Accumulated weight of the B^R1 biosynthetic building block token
+feat_193,float,high,Accumulated weight of the B^R10^R biosynthetic building block token
+feat_194,float,high,Accumulated weight of the B^R10^S biosynthetic building block token
+feat_195,float,high,Accumulated weight of the B^R12^R biosynthetic building block token
+feat_196,float,high,Accumulated weight of the B^R12^S biosynthetic building block token
+feat_197,float,high,Accumulated weight of the B^R13 biosynthetic building block token
+feat_198,float,high,Accumulated weight of the B^R2 biosynthetic building block token
+feat_199,float,high,Accumulated weight of the B^R2^R biosynthetic building block token
+feat_200,float,high,Accumulated weight of the B^R2^S biosynthetic building block token
+feat_201,float,high,Accumulated weight of the B^R3 biosynthetic building block token
+feat_202,float,high,Accumulated weight of the B^R4^R biosynthetic building block token
+feat_203,float,high,Accumulated weight of the B^R4^S biosynthetic building block token
+feat_204,float,high,Accumulated weight of the B^R5^R biosynthetic building block token
+feat_205,float,high,Accumulated weight of the B^R5^S biosynthetic building block token
+feat_206,float,high,Accumulated weight of the B^R6^R biosynthetic building block token
+feat_207,float,high,Accumulated weight of the B^R6^S biosynthetic building block token
+feat_208,float,high,Accumulated weight of the B^R7^R biosynthetic building block token
+feat_209,float,high,Accumulated weight of the B^R7^S biosynthetic building block token
+feat_210,float,high,Accumulated weight of the B^R8 biosynthetic building block token
+feat_211,float,high,Accumulated weight of the B^R9^R biosynthetic building block token
+feat_212,float,high,Accumulated weight of the B^R9^S biosynthetic building block token
+feat_213,float,high,Accumulated weight of the B^S1 biosynthetic building block token
+feat_214,float,high,Accumulated weight of the B^S10^R biosynthetic building block token
+feat_215,float,high,Accumulated weight of the B^S10^S biosynthetic building block token
+feat_216,float,high,Accumulated weight of the B^S12^R biosynthetic building block token
+feat_217,float,high,Accumulated weight of the B^S12^S biosynthetic building block token
+feat_218,float,high,Accumulated weight of the B^S13 biosynthetic building block token
+feat_219,float,high,Accumulated weight of the B^S2 biosynthetic building block token
+feat_220,float,high,Accumulated weight of the B^S2^R biosynthetic building block token
+feat_221,float,high,Accumulated weight of the B^S2^S biosynthetic building block token
+feat_222,float,high,Accumulated weight of the B^S3 biosynthetic building block token
+feat_223,float,high,Accumulated weight of the B^S4^R biosynthetic building block token
+feat_224,float,high,Accumulated weight of the B^S4^S biosynthetic building block token
+feat_225,float,high,Accumulated weight of the B^S5^R biosynthetic building block token
+feat_226,float,high,Accumulated weight of the B^S5^S biosynthetic building block token
+feat_227,float,high,Accumulated weight of the B^S6^R biosynthetic building block token
+feat_228,float,high,Accumulated weight of the B^S6^S biosynthetic building block token
+feat_229,float,high,Accumulated weight of the B^S7^R biosynthetic building block token
+feat_230,float,high,Accumulated weight of the B^S7^S biosynthetic building block token
+feat_231,float,high,Accumulated weight of the B^S8 biosynthetic building block token
+feat_232,float,high,Accumulated weight of the B^S9^R biosynthetic building block token
+feat_233,float,high,Accumulated weight of the B^S9^S biosynthetic building block token
+feat_234,float,high,Accumulated weight of the C1 biosynthetic building block token
+feat_235,float,high,Accumulated weight of the C13 biosynthetic building block token
+feat_236,float,high,Accumulated weight of the C2 biosynthetic building block token
+feat_237,float,high,Accumulated weight of the C4 biosynthetic building block token
+feat_238,float,high,Accumulated weight of the C7 biosynthetic building block token
+feat_239,float,high,Accumulated weight of the Compound 4 (formed by the decarboxylative condensation of L-Phe and succinyl-CoA) biosynthetic building block token
+feat_240,float,high,Accumulated weight of the D1 biosynthetic building block token
+feat_241,float,high,Accumulated weight of the D10 biosynthetic building block token
+feat_242,float,high,Accumulated weight of the D11 biosynthetic building block token
+feat_243,float,high,Accumulated weight of the D14 biosynthetic building block token
+feat_244,float,high,Accumulated weight of the D15 biosynthetic building block token
+feat_245,float,high,Accumulated weight of the D16 biosynthetic building block token
+feat_246,float,high,Accumulated weight of the D16^R biosynthetic building block token
+feat_247,float,high,Accumulated weight of the D16^S biosynthetic building block token
+feat_248,float,high,Accumulated weight of the D17 biosynthetic building block token
+feat_249,float,high,Accumulated weight of the D2 biosynthetic building block token
+feat_250,float,high,Accumulated weight of the D2^R biosynthetic building block token
+feat_251,float,high,Accumulated weight of the D2^S biosynthetic building block token
+feat_252,float,high,Accumulated weight of the D3 biosynthetic building block token
+feat_253,float,high,Accumulated weight of the D4 biosynthetic building block token
+feat_254,float,high,Accumulated weight of the D4^R biosynthetic building block token
+feat_255,float,high,Accumulated weight of the D4^S biosynthetic building block token
+feat_256,float,high,Accumulated weight of the D5 biosynthetic building block token
+feat_257,float,high,Accumulated weight of the D5^R biosynthetic building block token
+feat_258,float,high,Accumulated weight of the D5^S biosynthetic building block token
+feat_259,float,high,Accumulated weight of the D6 biosynthetic building block token
+feat_260,float,high,Accumulated weight of the D6^R biosynthetic building block token
+feat_261,float,high,Accumulated weight of the D6^S biosynthetic building block token
+feat_262,float,high,Accumulated weight of the D7 biosynthetic building block token
+feat_263,float,high,Accumulated weight of the D7^R biosynthetic building block token
+feat_264,float,high,Accumulated weight of the D7^S biosynthetic building block token
+feat_265,float,high,Accumulated weight of the D8 biosynthetic building block token
+feat_266,float,high,Accumulated weight of the D^R10^R biosynthetic building block token
+feat_267,float,high,Accumulated weight of the D^R10^S biosynthetic building block token
+feat_268,float,high,Accumulated weight of the D^R17 biosynthetic building block token
+feat_269,float,high,Accumulated weight of the D^R8 biosynthetic building block token
+feat_270,float,high,Accumulated weight of the D^S10^R biosynthetic building block token
+feat_271,float,high,Accumulated weight of the D^S10^S biosynthetic building block token
+feat_272,float,high,Accumulated weight of the D^S17 biosynthetic building block token
+feat_273,float,high,Accumulated weight of the D^S8 biosynthetic building block token
+feat_274,float,high,Accumulated weight of the N-(1-methyl)-tryptophan biosynthetic building block token
+feat_275,float,high,Accumulated weight of the N-(1-propargyl)-tryptophan biosynthetic building block token
+feat_276,float,high,Accumulated weight of the N-(5-aminopentyl)hydroxylamine biosynthetic building block token
+feat_277,float,high,Accumulated weight of the N-formylglycine biosynthetic building block token
+feat_278,float,high,Accumulated weight of the N-hydroxyvaline biosynthetic building block token
+feat_279,float,high,Accumulated weight of the N-methylphenylalanine biosynthetic building block token
+feat_280,float,high,Accumulated weight of the N-methyltyrosine biosynthetic building block token
+feat_281,float,high,Accumulated weight of the N1-methoxytryptophan biosynthetic building block token
+feat_282,float,high,Accumulated weight of the N5-acetyl-hydroxyornithine biosynthetic building block token
+feat_283,float,high,Accumulated weight of the N5-anhydromevalonyl-N5-hydroxyornithine biosynthetic building block token
+feat_284,float,high,Accumulated weight of the N5-formyl-N5-hydroxyornithine biosynthetic building block token
+feat_285,float,high,Accumulated weight of the N5-hydroxyornithine biosynthetic building block token
+feat_286,float,high,Accumulated weight of the N5-nitroso-N5-hydroxyornithine biosynthetic building block token
+feat_287,float,high,Accumulated weight of the N6-formyl-N6-hydroxylysine biosynthetic building block token
+feat_288,float,high,Accumulated weight of the N6-hydroxylysine biosynthetic building block token
+feat_289,float,high,Accumulated weight of the PK biosynthetic building block token
+feat_290,float,high,Accumulated weight of the PK_A biosynthetic building block token
+feat_291,float,high,Accumulated weight of the PK_B biosynthetic building block token
+feat_292,float,high,Accumulated weight of the PK_C biosynthetic building block token
+feat_293,float,high,Accumulated weight of the PK_D biosynthetic building block token
+feat_294,float,high,Accumulated weight of the acetic acid biosynthetic building block token
+feat_295,float,high,Accumulated weight of the adenosylmethionine biosynthetic building block token
+feat_296,float,high,Accumulated weight of the alanine biosynthetic building block token
+feat_297,float,high,Accumulated weight of the alaninol biosynthetic building block token
+feat_298,float,high,Accumulated weight of the amination biosynthetic building block token
+feat_299,float,high,Accumulated weight of the anthranilic acid biosynthetic building block token
+feat_300,float,high,Accumulated weight of the arginine biosynthetic building block token
+feat_301,float,high,Accumulated weight of the argininol biosynthetic building block token
+feat_302,float,high,Accumulated weight of the artificial amino acid harzianic acid biosynthetic building block token
+feat_303,float,high,Accumulated weight of the asparagine biosynthetic building block token
+feat_304,float,high,Accumulated weight of the aspartic acid biosynthetic building block token
+feat_305,float,high,Accumulated weight of the aza-beta-tyrosine biosynthetic building block token
+feat_306,float,high,Accumulated weight of the azetidine-2-carboxylic acid biosynthetic building block token
+feat_307,float,high,Accumulated weight of the benzoic acid biosynthetic building block token
+feat_308,float,high,Accumulated weight of the benzoxazolinate biosynthetic building block token
+feat_309,float,high,Accumulated weight of the beta-alanine biosynthetic building block token
+feat_310,float,high,Accumulated weight of the beta-hydroxy-3-hydroxy-O-methyl-5-methyltyrosine biosynthetic building block token
+feat_311,float,high,Accumulated weight of the beta-hydroxy-gamma-methyl-hexadecanoic acid biosynthetic building block token
+feat_312,float,high,Accumulated weight of the beta-hydroxyarginine biosynthetic building block token
+feat_313,float,high,Accumulated weight of the beta-hydroxycyclohex-2-enylalanine biosynthetic building block token
+feat_314,float,high,Accumulated weight of the beta-hydroxyenduracididine biosynthetic building block token
+feat_315,float,high,Accumulated weight of the beta-hydroxyphenylalanine biosynthetic building block token
+feat_316,float,high,Accumulated weight of the beta-hydroxytyrosine biosynthetic building block token
+feat_317,float,high,Accumulated weight of the beta-lysine biosynthetic building block token
+feat_318,float,high,Accumulated weight of the beta-methylphenylalanine biosynthetic building block token
+feat_319,float,high,Accumulated weight of the beta-methyltryptophan biosynthetic building block token
+feat_320,float,high,Accumulated weight of the beta-phenylalanine biosynthetic building block token
+feat_321,float,high,Accumulated weight of the beta-tyrosine biosynthetic building block token
+feat_322,float,high,Accumulated weight of the betaine biosynthetic building block token
+feat_323,float,high,Accumulated weight of the bicyclic guanidine alkaloid biosynthetic building block token
+feat_324,float,high,Accumulated weight of the boronation biosynthetic building block token
+feat_325,float,high,Accumulated weight of the bromination biosynthetic building block token
+feat_326,float,high,Accumulated weight of the butanedioic acid biosynthetic building block token
+feat_327,float,high,Accumulated weight of the butanoic acid biosynthetic building block token
+feat_328,float,high,Accumulated weight of the cadaverine biosynthetic building block token
+feat_329,float,high,Accumulated weight of the caffeic acid biosynthetic building block token
+feat_330,float,high,Accumulated weight of the capreomycidine biosynthetic building block token
+feat_331,float,high,Accumulated weight of the carbamic acid biosynthetic building block token
+feat_332,float,high,Accumulated weight of the carbonic acid biosynthetic building block token
+feat_333,float,high,Accumulated weight of the chlorination biosynthetic building block token
+feat_334,float,high,Accumulated weight of the cinnamic acid biosynthetic building block token
+feat_335,float,high,Accumulated weight of the citrulline biosynthetic building block token
+feat_336,float,high,Accumulated weight of the colletorin D acid biosynthetic building block token
+feat_337,float,high,Accumulated weight of the coumaric acid biosynthetic building block token
+feat_338,float,high,Accumulated weight of the cyanide biosynthetic building block token
+feat_339,float,high,Accumulated weight of the cyclopentane-1-2-dicarboxylic acid biosynthetic building block token
+feat_340,float,high,Accumulated weight of the cysteic acid biosynthetic building block token
+feat_341,float,high,Accumulated weight of the cysteine biosynthetic building block token
+feat_342,float,high,Accumulated weight of the dec-3-enoic acid biosynthetic building block token
+feat_343,float,high,Accumulated weight of the decanoic acid biosynthetic building block token
+feat_344,float,high,Accumulated weight of the dehydroalanine biosynthetic building block token
+feat_345,float,high,Accumulated weight of the dehydroarginine biosynthetic building block token
+feat_346,float,high,Accumulated weight of the dehydrobutyrine biosynthetic building block token
+feat_347,float,high,Accumulated weight of the dehydrohomoserine biosynthetic building block token
+feat_348,float,high,Accumulated weight of the dehydrophenylalanine biosynthetic building block token
+feat_349,float,high,Accumulated weight of the dehydrotryptophan biosynthetic building block token
+feat_350,float,high,Accumulated weight of the dehydrovaline biosynthetic building block token
+feat_351,float,high,Accumulated weight of the dihydrolysergic acid biosynthetic building block token
+feat_352,float,high,Accumulated weight of the dimethylsulfoniopropionic acid biosynthetic building block token
+feat_353,float,high,Accumulated weight of the dodecanoic acid biosynthetic building block token
+feat_354,float,high,Accumulated weight of the enduracididine biosynthetic building block token
+feat_355,float,high,Accumulated weight of the ethanol biosynthetic building block token
+feat_356,float,high,Accumulated weight of the fluorination biosynthetic building block token
+feat_357,float,high,Accumulated weight of the formaldehyde biosynthetic building block token
+feat_358,float,high,Accumulated weight of the fumaric acid biosynthetic building block token
+feat_359,float,high,Accumulated weight of the furan-3-carboxylic acid biosynthetic building block token
+feat_360,float,high,Accumulated weight of the glutamic acid biosynthetic building block token
+feat_361,float,high,Accumulated weight of the glutamine biosynthetic building block token
+feat_362,float,high,Accumulated weight of the glyceric acid biosynthetic building block token
+feat_363,float,high,Accumulated weight of the glycine biosynthetic building block token
+feat_364,float,high,Accumulated weight of the glycolic acid biosynthetic building block token
+feat_365,float,high,Accumulated weight of the glycosylation biosynthetic building block token
+feat_366,float,high,Accumulated weight of the grifolic acid biosynthetic building block token
+feat_367,float,high,Accumulated weight of the guanidine-containing fatty acid biosynthetic building block token
+feat_368,float,high,Accumulated weight of the halogenation biosynthetic building block token
+feat_369,float,high,Accumulated weight of the heptanoic acid biosynthetic building block token
+feat_370,float,high,Accumulated weight of the hexadecanoic acid biosynthetic building block token
+feat_371,float,high,Accumulated weight of the hexanoic acid biosynthetic building block token
+feat_372,float,high,Accumulated weight of the histidine biosynthetic building block token
+feat_373,float,high,Accumulated weight of the homocysteamine biosynthetic building block token
+feat_374,float,high,Accumulated weight of the homocysteine biosynthetic building block token
+feat_375,float,high,Accumulated weight of the homophenylalanine biosynthetic building block token
+feat_376,float,high,Accumulated weight of the homoserine biosynthetic building block token
+feat_377,float,high,Accumulated weight of the homotyrosine biosynthetic building block token
+feat_378,float,high,Accumulated weight of the indole pyruvic acid biosynthetic building block token
+feat_379,float,high,Accumulated weight of the iodination biosynthetic building block token
+feat_380,float,high,Accumulated weight of the isobutyric acid biosynthetic building block token
+feat_381,float,high,Accumulated weight of the isoleucine biosynthetic building block token
+feat_382,float,high,Accumulated weight of the isoleucinol biosynthetic building block token
+feat_383,float,high,Accumulated weight of the isovaline biosynthetic building block token
+feat_384,float,high,Accumulated weight of the kynurenine biosynthetic building block token
+feat_385,float,high,Accumulated weight of the lactic acid biosynthetic building block token
+feat_386,float,high,Accumulated weight of the leucine biosynthetic building block token
+feat_387,float,high,Accumulated weight of the leucinol biosynthetic building block token
+feat_388,float,high,Accumulated weight of the linoleic acid biosynthetic building block token
+feat_389,float,high,Accumulated weight of the lysergic acid biosynthetic building block token
+feat_390,float,high,Accumulated weight of the lysine biosynthetic building block token
+feat_391,float,high,Accumulated weight of the malic acid biosynthetic building block token
+feat_392,float,high,Accumulated weight of the malonamate biosynthetic building block token
+feat_393,float,high,Accumulated weight of the malonic acid biosynthetic building block token
+feat_394,float,high,Accumulated weight of the meta-tyrosine biosynthetic building block token
+feat_395,float,high,Accumulated weight of the methanol biosynthetic building block token
+feat_396,float,high,Accumulated weight of the methionine biosynthetic building block token
+feat_397,float,high,Accumulated weight of the methylation biosynthetic building block token
+feat_398,float,high,Accumulated weight of the methylglutaconyl hydroxyornithine biosynthetic building block token
+feat_399,float,high,Accumulated weight of the nicotinic acid biosynthetic building block token
+feat_400,float,high,Accumulated weight of the nonanoic acid biosynthetic building block token
+feat_401,float,high,Accumulated weight of the norcoronamic acid biosynthetic building block token
+feat_402,float,high,Accumulated weight of the ochratoxin beta biosynthetic building block token
+feat_403,float,high,Accumulated weight of the octanoic acid biosynthetic building block token
+feat_404,float,high,Accumulated weight of the ornithine biosynthetic building block token
+feat_405,float,high,Accumulated weight of the ornithine alkaloid biosynthetic building block token
+feat_406,float,high,Accumulated weight of the orsellinic acid biosynthetic building block token
+feat_407,float,high,Accumulated weight of the oxidation biosynthetic building block token
+feat_408,float,high,Accumulated weight of the p-hydroxybenzoylformic acid biosynthetic building block token
+feat_409,float,high,Accumulated weight of the p-hydroxymandelate biosynthetic building block token
+feat_410,float,high,Accumulated weight of the para-aminobenzoic acid biosynthetic building block token
+feat_411,float,high,Accumulated weight of the parahydroxy phenylacetic acid biosynthetic building block token
+feat_412,float,high,Accumulated weight of the pentadecanoic acid biosynthetic building block token
+feat_413,float,high,Accumulated weight of the pentanoic acid biosynthetic building block token
+feat_414,float,high,Accumulated weight of the phenazine-1-6-dicarboxylic acid biosynthetic building block token
+feat_415,float,high,Accumulated weight of the phenylalanine biosynthetic building block token
+feat_416,float,high,Accumulated weight of the phenylalaninol biosynthetic building block token
+feat_417,float,high,Accumulated weight of the phenylglycine biosynthetic building block token
+feat_418,float,high,Accumulated weight of the phenyllactic acid biosynthetic building block token
+feat_419,float,high,Accumulated weight of the phenylpyruvic acid biosynthetic building block token
+feat_420,float,high,Accumulated weight of the phosphonylation biosynthetic building block token
+feat_421,float,high,Accumulated weight of the pipecolic acid biosynthetic building block token
+feat_422,float,high,Accumulated weight of the piperazic acid biosynthetic building block token
+feat_423,float,high,Accumulated weight of the piperonylic acid biosynthetic building block token
+feat_424,float,high,Accumulated weight of the proline biosynthetic building block token
+feat_425,float,high,Accumulated weight of the propanoic acid biosynthetic building block token
+feat_426,float,high,Accumulated weight of the propanol biosynthetic building block token
+feat_427,float,high,Accumulated weight of the putrescin biosynthetic building block token
+feat_428,float,high,Accumulated weight of the pyrrole-2-carboxylic acid biosynthetic building block token
+feat_429,float,high,Accumulated weight of the pyruvic acid biosynthetic building block token
+feat_430,float,high,Accumulated weight of the quinoxaline-2-carboxylic acid biosynthetic building block token
+feat_431,float,high,Accumulated weight of the salicylic acid biosynthetic building block token
+feat_432,float,high,Accumulated weight of the serine biosynthetic building block token
+feat_433,float,high,Accumulated weight of the siderophore biosynthetic building block token
+feat_434,float,high,Accumulated weight of the streptamine biosynthetic building block token
+feat_435,float,high,Accumulated weight of the succinic semialdehyde biosynthetic building block token
+feat_436,float,high,Accumulated weight of the succinyl-hydrazinoacetic acid biosynthetic building block token
+feat_437,float,high,Accumulated weight of the tetradec-2-enoic acid biosynthetic building block token
+feat_438,float,high,Accumulated weight of the tetradecanoic acid biosynthetic building block token
+feat_439,float,high,Accumulated weight of the threonine biosynthetic building block token
+feat_440,float,high,Accumulated weight of the trans-2-hexanoic acid biosynthetic building block token
+feat_441,float,high,Accumulated weight of the tricarballylic acid biosynthetic building block token
+feat_442,float,high,Accumulated weight of the tridecanoic acid biosynthetic building block token
+feat_443,float,high,Accumulated weight of the tryptophan biosynthetic building block token
+feat_444,float,high,Accumulated weight of the tryptophan alkaloid biosynthetic building block token
+feat_445,float,high,Accumulated weight of the tyrosine biosynthetic building block token
+feat_446,float,high,Accumulated weight of the ustethylinic acid biosynthetic building block token
+feat_447,float,high,Accumulated weight of the valienol biosynthetic building block token
+feat_448,float,high,Accumulated weight of the valienone biosynthetic building block token
+feat_449,float,high,Accumulated weight of the valine biosynthetic building block token
+feat_450,float,high,Accumulated weight of the valine isocyanide biosynthetic building block token
+feat_451,float,high,Accumulated weight of the valinol biosynthetic building block token
+coverage,float,high,Fraction of heavy atoms assigned to identified biosynthetic building blocks

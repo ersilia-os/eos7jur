@@ -73,3 +73,62 @@ The workflows in `.github/workflows/` are thin wrappers around reusable workflow
 ## Ersilia ecosystem
 
 Be aware of the rest of the org at [github.com/ersilia-os](https://github.com/ersilia-os) — in particular [`ersilia`](https://github.com/ersilia-os/ersilia), [`ersilia-pack`](https://github.com/ersilia-os/ersilia-pack), [`ersilia-pack-utils`](https://github.com/ersilia-os/ersilia-pack-utils), and [`eosvc`](https://github.com/ersilia-os/eosvc). Skills in [`ersilia-skills`](https://github.com/ersilia-os/ersilia-skills) are updated independently — check it before writing the same logic from scratch.
+
+---
+
+# RetroMol-specific notes (eos7jur)
+
+## The vocabulary pin is load-bearing — do not remove it
+
+RetroMol's `Fingerprinter` only hashes tokens into bins when the vocabulary
+outgrows the bit width. At 452 tokens it never does, so **a bin index is simply
+the token's alphabetical position in the ruleset**. Adding one rule upstream
+whose name sorts early renumbers most of the vector: a rule named `A0` moves 299
+of 452 bins, while one named `zzz_new_rule` moves none. Nothing warns you — old
+predictions stay byte-valid and quietly stop meaning what `run_columns.csv` says.
+
+Three things defend against that, and they must stay in step:
+
+1. `install.yml` pins `retromol==3.0.0` exactly.
+2. `model/framework/code/vocabulary.txt` freezes the 452 tokens in bin order.
+3. `retromol_predict._check_vocabulary_drift()` recomputes the token set from the
+   installed ruleset at import and raises if it differs.
+
+If you ever bump the RetroMol pin, regenerate `vocabulary.txt` **and**
+`run_columns.csv` together, and treat it as a MAJOR version bump — every column
+may have changed meaning.
+
+## Why this model emits 452 columns when the paper says 1024
+
+Both describe the same vector. The paper's 1024 is the fixed width of the DuckDB
+array column in RetroMol's own retrieval database (`FINGERPRINT_SIZE` in
+`retromol_database/duckdb.py`), chosen as headroom because `array_cosine_similarity`
+needs a width declared at `CREATE TABLE` time. Since the vocabulary is 452 tokens,
+bins 452-1023 are unreachable and always zero — verified across 993 NPAtlas
+molecules, where the highest bin ever non-zero is 451.
+
+`Fingerprinter(vocab)` with no arguments returns 452, which is what this model
+uses. We are not building their retrieval database, so the constraint that
+motivated 1024 does not apply, and shipping it would mean 572 constant-zero
+columns in every stored prediction.
+
+## Applicability domain
+
+Designed for modular natural products — type I polyketides and nonribosomal
+peptides. On ordinary drug-like input most molecules parse to little or nothing:
+mean coverage 0.15 on a drug-like benchmark against 0.38 on NPAtlas, with ~29%
+returning no identified monomers at all. That is a real result, not a failure, so
+those rows are zeros with `coverage` 0.0. The `coverage` column is the
+applicability-domain signal — filter on it.
+
+NaN rows mean RetroMol could not process the molecule at all: unparseable SMILES,
+an empty or non-string cell, the readout's `root_enc` ValueError (~0.7% of
+NPAtlas), or the 60 s timeout.
+
+## The fingerprint discards monomer order
+
+`Fingerprinter.encode` accumulates over monomers, so the ordered primary sequence
+that RetroMol's paper aligns collapses to a bag of building blocks here. Two
+molecules with the same units assembled in a different order are indistinguishable
+in this output. All readout paths are pooled, so tailoring modifications that sit
+off the main backbone (glycosylation, methylation) do reach the vector.
