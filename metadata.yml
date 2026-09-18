@@ -1,6 +1,6 @@
 Identifier: eos7jur
 Slug: retromol-fingerprint
-Status: In progress
+Status: Ready
 Title: RetroMol Biosynthetic Fingerprint
 Description: Decomposes a natural product into the biosynthetic building blocks 
   its assembly line would have used, returning a 452-dimensional count vector 
@@ -41,6 +41,18 @@ Source Code: https://github.com/moltools/retromol
 License: MIT
 Contributor: TiagoJanela
 Incorporation Date: '2026-09-18'
+Last Packaging Date: '2026-09-18'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7jur.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos7jur
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1.0
 Environment Size: 931.0
+Image Size: 940.12
+Computational Performance 1: 28.96
+Computational Performance 2: 18.78
+Computational Performance 3: 21.29
+Computational Performance 4: 49.03
+Computational Performance 5: 249.73
