@@ -48,6 +48,7 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos7jur
 Docker Architecture:
   - AMD64
   - ARM64
+Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos7jur_v1.sif
 Model Size: 1.0
 Environment Size: 931.0
 Image Size: 940.12
