@@ -42,7 +42,7 @@ License: MIT
 Contributor: TiagoJanela
 Incorporation Date: '2026-09-18'
 Last Packaging Date: '2026-09-18'
-Release: v1.0.0
+Release: v1.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7jur.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos7jur
 Docker Architecture:
