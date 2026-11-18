@@ -2,7 +2,8 @@
 
 Decomposes a natural product into the biosynthetic building blocks its assembly line would have used, returning a 452-dimensional count vector over monomer tokens spanning polyketide extender units, amino acids and tailoring modifications. RetroMol was built to give natural products and their biosynthetic gene clusters a shared encoding, and applies curated retrobiosynthetic rules rather than a trained model, so output is fully deterministic. A coverage value reports how much of the molecule was parsed; compounds outside modular polyketide and nonribosomal peptide chemistry parse poorly.
 
-This model was incorporated on 2026-09-18.Last packaged on 2026-09-18.
+This model was incorporated on 2026-09-18.
+Last packaged on 2026-09-18.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 453 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos7jur](https://hub.docker.com/r/ersiliaos/eos7jur)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7jur.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7jur.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos7jur_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos7jur_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
